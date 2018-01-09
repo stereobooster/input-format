@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ReactDOM from 'react-dom'
 
 import Input_controller from './input controller'
 
@@ -100,7 +99,7 @@ export default class ReactInput extends React.Component
 	// Returns <input/> DOM Element
 	get_input_element = () =>
 	{
-		return ReactDOM.findDOMNode(this.input)
+		return this.input
 	}
 
 	// This handler is a workaround for `redux-form`

@@ -48,7 +48,7 @@ const config =
 	{
 		// Use external version of React
 		"react"     : "React",
-		"react-dom" : "ReactDOM"
+		"prop-types": "PropTypes"
 	},
 	plugins
 }
